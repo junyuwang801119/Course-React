@@ -1,0 +1,42 @@
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .wrap{
+            padding: 10px;
+         
+        }
+        .pic{
+            width: 100%;
+            height: 200px;
+            background: url(./img/1.jpg)center no-repeat ;
+            background-size: cover;
+            /* margin: 10px auto; */
+        }
+        .relative-btn-right{
+            width: 30px;
+            height: 30px;
+            background-color: #BDC5C7;
+            border-radius: 50%; 
+            color: #5d5d5d;
+            position: absolute;
+            right: 20px;
+            top: 45%;
+        }  
+        a:hover{
+            text-decoration: none;
+            color: #fff;
+        }  
+        .text span{
+            font-family: assistant;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 30px;
+        }
+        .aaa{
+            transform: translateX(-25px);
+        }
+   

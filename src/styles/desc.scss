@@ -1,0 +1,123 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+        body{
+            background-color: #EDECE8;
+        }
+        .designer-des {
+            width: 712px;
+            height: 504px;
+            background-color: #D6D7D1;            
+        }
+        .designer-img{
+            width: 488px;
+            height: 674px;
+            background: url(https://330827-1014958-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/09/LookbookATD.01.11.184844-1429x2000.jpg) center no-repeat;
+            background-size: cover;
+        }
+        .design{
+            font-family: Assistant;
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: 5px;
+        }
+        .name{
+            font-family: Lora;
+            font-size: 24px;
+            font-weight: 400;
+            letter-spacing: 5px;
+        }
+        .brief{
+            font-family: Assistant;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+        }
+        .designer-des span{
+            font-family: Assistant;
+            font-size: 16px;
+            font-weight: 400;
+            text-decoration: underline;
+            ;
+        }
+        .designer-des a{
+            color: black
+        }
+        .days{
+            /* border: 1px solid black; */
+            width: 100px;
+            height: 100px;
+            background-color:  #fff;
+            opacity: .4;
+            color: #000;
+            margin: 20px;
+            text-align: center;
+            font-family: Assistant;
+            font-size: 60px;
+            font-weight: 700;
+        }
+        .days span{
+            font-family: Assistant;
+            font-size: 16px;
+            font-weight: 400;
+            transform: translateY(-20px);
+        }
+        .mainpic{
+            background: url(./Fredericia-The-Canvas-Chair-Natural-Canvas-Soaped-Oak-Main.jpg) center no-repeat;
+            background-size: cover;
+            width: 722px;
+            height: 557px;
+            margin: 0px 20px;
+        }
+        .pic{
+            width: 150px;
+            height: 112.5px;
+            background: url(./Fredericia-The-Canvas-Chair-Natural-Canvas-Soaped-Oak-Main.jpg)center no-repeat;
+            background-size: cover;
+            margin: 25px 20px;
+
+        }
+        .info{
+            margin: 20px;
+        }
+        .line{
+            width: 0px;
+            height: 1300px;
+            border: 1px solid #707070;
+            opacity: 0.4;          
+            margin-bottom: 20px;  
+        }
+        .line2{
+            width: 722px;
+            height: 0px;
+            border: 1px solid #707070;
+            opacity: 0.4;    
+            margin:10px 0px ;        
+        }
+        
+        .info h4{
+            font-family: sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            color: #707070;
+        }
+        .info p{
+            font-family: sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            color: #707070;
+            line-height: 30px;
+            letter-spacing: 3px;
+        }
+        .info{
+            width: 722px
+
+        }
+        table, th, tr, td{
+           
+            padding:10px;
+            color: #707070;
+            font-family: assistant;
+            font-size: 16px;
+            font-weight: 600;
+        }
+  
